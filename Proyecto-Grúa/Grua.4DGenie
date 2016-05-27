@@ -1,0 +1,190 @@
+﻿Version     0.0
+Platform    uLCD-32PTU-P
+PlatRes     240x320
+Depends
+end
+Options
+    Genie
+    Speed                        9600
+    Checksum                     No
+    ResponseSize                 2
+    Multidrop                    No
+    Destination                  1
+    SndBuf                       0
+end
+Form
+    Name                         Form0
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Statictext0
+    AutoSize                     Yes
+    Caption                      ''
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    18
+    Font.Style                   []
+    Height                       29
+    Left                         88
+    Top                          28
+    Transparent                  Yes
+    Visible                      Yes
+    Width                        8
+    WordWrap                     Yes
+end
+4Dbutton
+    Name                         4Dbutton0
+    Height                       48
+    Left                         60
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         48x48
+    Style                        Green
+    Top                          108
+    Type                         Button02
+    Width                        48
+    OnChanged                    ''
+end
+4Dbutton
+    Name                         4Dbutton1
+    Height                       48
+    Left                         60
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         48x48
+    Style                        Red
+    Top                          180
+    Type                         Button02
+    Width                        48
+    OnChanged                    'Report Message'
+end
+StaticText
+    Name                         Statictext2
+    AutoSize                     Yes
+    Caption                      Volver
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    12
+    Font.Style                   []
+    Height                       19
+    Left                         156
+    Top                          132
+    Transparent                  Yes
+    Visible                      Yes
+    Width                        45
+    WordWrap                     Yes
+end
+4Dbutton
+    Name                         4Dbutton2
+    Height                       48
+    Left                         156
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         48x48
+    Style                        Red
+    Top                          172
+    Type                         Button01
+    Width                        48
+    OnChanged                    'Report Message'
+end
+4Dbutton
+    Name                         4Dbutton3
+    Height                       48
+    Left                         60
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         48x48
+    Style                        Blue
+    Top                          248
+    Type                         Button02
+    Width                        48
+    OnChanged                    'Report Message'
+end
+StaticText
+    Name                         Statictext1
+    AutoSize                     Yes
+    Caption                      P1
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    16
+    Font.Style                   []
+    Height                       25
+    Left                         20
+    Top                          116
+    Transparent                  Yes
+    Visible                      Yes
+    Width                        23
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext3
+    AutoSize                     Yes
+    Caption                      P2
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    16
+    Font.Style                   []
+    Height                       25
+    Left                         20
+    Top                          188
+    Transparent                  Yes
+    Visible                      Yes
+    Width                        23
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext4
+    AutoSize                     Yes
+    Caption                      P3
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    16
+    Font.Style                   []
+    Height                       25
+    Left                         24
+    Top                          256
+    Transparent                  Yes
+    Visible                      Yes
+    Width                        23
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext5
+    AutoSize                     Yes
+    Caption                      GRÚA
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    18
+    Font.Style                   []
+    Height                       29
+    Left                         84
+    Top                          56
+    Transparent                  Yes
+    Visible                      Yes
+    Width                        61
+    WordWrap                     Yes
+end
